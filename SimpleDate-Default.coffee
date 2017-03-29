@@ -8,43 +8,40 @@ refreshFrequency: 50000
 style: """
   /* Modify Colors and Size Here:*/
   
-  size = 800px                //This is just a base for the overall size so everything stays centered
+  size =              800px          //This is just a base for the overall size so everything stays centered
 
-  width: size 
-  margin-left: -.5 * size     //Set left edge of widget to be center so it can be easily centered on the page
-  text-align: center
-
+  width:              size 
+  margin-left:        -.5 * size     //Set left edge of widget to be center so it can be easily centered on the page
+  text-align:         center
 
   height: 130px             
-  margin-top: -.5 * 130px
-  vertical-align: middle
-
+  margin-top:         -.5 * 130px
+  vertical-align:     middle
 
   /*POSITION*/
-  top: 50%
-  left: 50%
+  top:                50%
+  left:               50%
 
   /*COLORS*/
-  primaryColor = rgba(255,255,255,0.55)
-  secondaryColor = rgba(255,255,255,0.35)
+  primaryColor =      rgba(255,255,255,0.55)
+  secondaryColor =    rgba(255,255,255,0.35)
 
-
-  font-family: Helvetica Neue
-  font-weight: 100
-  font-size: 46px
+  font-family:        Helvetica Neue
+  font-weight:        100
+  font-size:          46px
 
   #main
-    color: primaryColor
-    font-size: 64px
+    color:            primaryColor
+    font-size:        64px
 
   #suffix
-  	color: primaryColor
-  	font-weight: 100
-  	margin-left: -15px         //Forces suffix to be closer to numDate
+  	color:            primaryColor
+  	font-weight:      100
+  	margin-left:      -15px           //Forces suffix to be closer to numDate
 
   #secondary
-    font-weight: 100
-  	color: secondaryColor
+    color:            secondaryColor
+    font-weight:      100
 """
 
 
@@ -54,7 +51,6 @@ render: (output) -> """
     <sup id="suffix"></sup>     <!--Suffix for numDate-->
   </div>
   <div id="secondary"></div>    <!--Additional date info (month, year)-->
-
 """
 
 #Update Function
