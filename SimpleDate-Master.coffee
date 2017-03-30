@@ -6,8 +6,6 @@ refreshFrequency: 50000
 
 #Body Style (modeify colors and size here)
 style: """
-  /* Modify Colors and Size Here:*/
-  
   size = 800px                //This is just a base for the overall size so everything stays centered
 
   width: size 
