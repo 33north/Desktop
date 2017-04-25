@@ -3,6 +3,7 @@
 A beginning work into some widgets and seeing where they go if anything at all.  Hopefully it is fruitful and leads to other more interesting paths.
 
 # Date Function & String Format Time (strftime)
+```
 %a    Short date, Sun
 %A    Long date, Sunday
 %b    Short month, Apr
@@ -55,7 +56,7 @@ A beginning work into some widgets and seeing where they go if anything at all. 
 %Y    Long year, 2017
 %z    Numeric timezone (-0700)
 %Z    Abbreviated timezone (PDT)
-
+```
 
 **For more information**
 man date
