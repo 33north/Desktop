@@ -8,7 +8,7 @@ A beginning work into some widgets and seeing where they go if anything at all. 
 %A    Long date, Sunday
 %b    Short month, Apr
 %B    Long month, April
->>%c    Date and Time format such as %a %b % M%:%S %Y, Tue Apr 25 13:15:35 2017
+%c    Date and Time format such as %a %b %e M%:%S %Y, Tue May e 15:39:33 2017
 %C    Year divided by 100, 20
 %d    Day of the month with zero, 25
 %D    Date such as %m/%d/%y, 04/25/17
@@ -16,8 +16,8 @@ A beginning work into some widgets and seeing where they go if anything at all. 
 %E    NOTHING I ASSUME, E
 %f    NOTHING I ASSUME, f
 %F    Date such as %Y-%m-%d, 2017-04-25
->>%g    ???, 17
->>%G    ???, 2017
+%g    Year as a decimal # w/0 century (00-99), 17
+%G    Year as a decimal # w/ century (Monday is the first of the week), 2017
 %h    Short month; Same as %b, Apr
 %H    Hour in 24 hr format with zero, (00...23)
 %i    NOTHING I ASSUME, i
