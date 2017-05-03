@@ -1,6 +1,46 @@
 #Terminal Command
 command: "date +%A,%B,%e,%Y"
 
+###
+Date terminal formatting
+%a    Short date, Sun
+%A    Long date, Sunday
+%b    Short month, Apr
+%B    Long month, April
+%d    Day of the month with zero, 25
+%e    Day of the month without zero, 1
+>%F    Date such as %Y-%m-%, 2017-04-25
+%D    Date such as %m/%d/%y, 04/25/17
+%x    Date such as %m/%d/%Y, 04/25/2017
+>%v    Date such as -%b-%Y 
+%j    Day of the year, 115
+%m    Month in number format, (01...12)
+%u    Day of the week, 2 (because twoday is Tuesday)
+%V    Week number of the year with Monday as first day of the week, (01...53)
+%y    Short year, 17
+%Y    Long year, 2017
+
+Time terminal formatting
+%H    Hour in 24 hr format with zero, (00...23)
+%I    Hour in 12 hr format with zero, (01...12)
+%k    Hour in 24 hr format without zero, (1...23)
+%l    hour in 12 hr format without zero, (1...12)
+%M    Minute (00...59)
+%p    Locale (AM/PM)
+%S    Second (00...50)
+>%T    Time such as %:%M:%S
+>%X    Time such as %:%M:%S
+>%r    Time such as %:%M, 13:28
+%R    Time such as %I:%M:%S %p, 01:28:02 PM
+%z    Numeric timezone (-0700)
+%Z    Abbreviated timezone (PDT)
+
+>%c    Date and Time format such as %a %b % % %Y,Tue Apr 25 13:15:35 2017
+
+%t    tab
+%n    newline
+###
+
 #Refresh time
 refreshFrequency: 50000
 
