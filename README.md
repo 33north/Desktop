@@ -2,6 +2,7 @@
 
 A beginning work into some widgets and seeing where they go if anything at all.  Hopefully it is fruitful and leads to other more interesting paths.
 
+date "+[strftime]"
 # Date Function & String Format Time (strftime)
 ```
 %a    Short date, Sun
@@ -51,7 +52,7 @@ A beginning work into some widgets and seeing where they go if anything at all. 
 %w    Day of the week with Sunday as first day of the week, (0...6)
 %W    Week number of the year with Monday as the first day of the week, (00...53)
 %x    Date such as %m/%d/%Y, 04/25/2017
->>%X    Time such as %:%M:%S, 13:45:19
+%X    Time such as %H:%M:%S, 13:45:19  02:39:02
 %y    Short year, 17
 %Y    Long year, 2017
 %z    Numeric timezone (-0700)
